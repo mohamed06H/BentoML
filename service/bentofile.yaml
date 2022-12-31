@@ -1,0 +1,10 @@
+service: "service:iris_service"  # Same as the argument passed to bentoml
+labels:
+  owner: mohamed
+  stage: production
+include:
+  - "*.py"  # include python files to the Bento
+python:
+   packages:  # Additional pip packages required by the modules
+     - sklearn
+     - numpy
