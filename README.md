@@ -25,6 +25,7 @@ or
 ```bash
 cd service/ # get in 'bentofile.yaml' location 
 bentoml build 
+bentoml list # to list bento instances different from models list 
 ```
 ```bash
 bentoml serve iris_classifier:latest --production
