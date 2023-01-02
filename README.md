@@ -47,3 +47,8 @@ The service is running on localhost port 3000, we can request for predictions
 ```bash
 python 02_request_service.py 
 ```
+
+### Summarize: Three major steps for deploying models with BentoML
+* Select the model you want to deploy, in this case it was the latest trained model or the latest one having the label stage in production, but you can choose it from a tracking system such as MLflow.
+* Save the model to the bentoml store.
+* Serve the model.
