@@ -30,14 +30,6 @@ def train_model():
     return model, score
 
 
-def save_model_tag_file(tag):
-    with open('modules/model_tags.txt', 'w+') as file:
-        tag = str(tag)
-        file.write(tag)
-        file.write('\n')
-    file.close()
-
-
 def main():
     """Trains a model for classifying Iris dataset."""
 
