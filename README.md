@@ -36,6 +36,7 @@ python 02_request_service.py
 ```
 
 ### Serve the model Method 3: containerize the bento with docker
+First build a bento as in method 2, then deploy it with docker
 ```bash
 bentoml containerize iris_classifier:tag 
 docker images # new image built 
