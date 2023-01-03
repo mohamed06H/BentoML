@@ -5,6 +5,10 @@
 ```bash
 python 01_train.py
 ```  
+```python
+# Save an sklearn model in bentoml:
+bentoml.sklearn.save_model(model_name, model)
+``` 
 
 ### Check model store
 ```bash
