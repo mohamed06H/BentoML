@@ -1,5 +1,5 @@
 # BentoML
-## Deploy Sklearn Model in Production wih BentoML
+## Deploy Sklearn Model in Production with BentoML
 
 ### Train the model and save it in the bentoml models store
 ```bash
